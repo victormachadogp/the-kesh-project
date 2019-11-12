@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(images/thekeshcover.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+h1 {
+    font-family: "Great Vibes";
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:10em;
+}
+
+.wave {
+    background: url(images/wave.svg);
+}
