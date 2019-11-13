@@ -5,7 +5,7 @@
 }
 
 body {
-    background: url(images/thekeshcover.jpeg);
+    background: url(images/thekeshcover.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -19,7 +19,8 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size:10em;
+    font-size:11em;
+    font-weight: 100;
 }
 
 .wave {
