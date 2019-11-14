@@ -5,11 +5,16 @@
 }
 
 body {
-    background: url(images/thekeshcover.jpg);
+    /* background: url(images/thekeshcoverwave.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'roboto';
 }
-
+/* Header */
+.image-cover {
+    width: 100%;
+    pointer-events: none;
+}
 
 h1 {
     font-family: "Great Vibes";
@@ -19,10 +24,60 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size:11em;
+    font-size:11em; 
     font-weight: 100;
 }
 
-.wave {
-    background: url(images/wave.svg);
+/* Section 1 */
+
+.callback {
+    font-family: 'roboto';
+    text-align: center;
+    padding-top: 2em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+p {
+    padding-top: 1em;
+}
+
+.line-container {
+    text-align: center;
+    padding: 1em;
+}
+
+.line {
+    width: 100px;
+    background-color: black;
+    height: 2px;
+    display: inline-block;
+}
+
+/* Section 2 */
+
+.half-video {
+    display: grid;
+    grid-template-columns: 50%;
+    justify-items: center;
+}
+
+.video-text {
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+/* Section 3 */
+
+.musical-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 49%;
+}
+
+.width-adjust {
+    max-width: 100%;
 }
