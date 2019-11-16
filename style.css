@@ -71,6 +71,17 @@ p {
     
 }
 
+@media (min-width: 300px) and (max-width: 400px) {
+    h1 {
+        font-size: 2.8em;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+}
+
 /* Media Query Half Video */
 @media (max-width: 600px) {
 
@@ -81,13 +92,13 @@ p {
     }
 
     /* Title media query */
-    h1 {
+    /* h1 {
         font-size: 3em;
         position: absolute;
         top: 18%;
         left: 50%;
         transform: translate(-50%, -50%);
-    }
+    } */
 }
 
 /* Section 3 */
