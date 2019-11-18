@@ -179,5 +179,59 @@ h4 {
     .band-cast {
         grid-template-columns: 1fr;
     }
+}
 
+/* Section 5 */
+
+.container-2 {
+    width: 100%;    
+    position: relative;
+}
+.image-cover-section {
+    width: 100%;
+    pointer-events: none;
+}
+
+.discover-section {
+    position: absolute;
+    bottom: 15%;
+    left: 16px;
+    color: white;
+    padding-left: 5%;
+
+}
+
+.learn {
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 10px 30px 10px 30px;
+    border-radius: 9px;
+    display: inline-block; 
+    text-decoration: none;
+    color: #fff;
+
+}
+.learn:hover {
+    background-color: white;
+    border: 2px solid #fff;
+    padding: 10px 30px 10px 30px;
+    border-radius: 9px;
+    display: inline-block; 
+    text-decoration: none;
+    color: #4f4f4f;
+    transition-duration: 0.4s;
+
+}
+
+.discover-text {
+    margin: 3%;
+
+    
+}
+.title-discover {
+    font-size: 5vw;
+}
+
+.subtitle-discover {
+    width: 60%;
 }
