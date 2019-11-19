@@ -235,3 +235,20 @@ h4 {
 .subtitle-discover {
     width: 60%;
 }
+
+/* Section 6 */
+
+.clients-title {
+    text-align: center;
+}
+
+.our-clients {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.client-text {
+    background: #f4f4f4;
+    text-align: center;
+}
