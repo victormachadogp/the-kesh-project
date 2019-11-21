@@ -198,6 +198,7 @@ h4 {
     left: 16px;
     color: white;
     padding-left: 5%;
+    width: 100%;
 
 }
 
@@ -251,6 +252,41 @@ h4 {
 .client-text {
     background: #f4f4f4;
     text-align: center;
+}
+
+@media (max-width: 800px) {
+
+    .our-clients {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .subtitle-discover {
+        display: none;
+
+    }
+
+    .sub-subtitle {
+        display: none;
+    }
+
+    .title-discover {
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .discover-section {
+        left: 0px;
+        bottom: 28%;
+        padding-left: 0px;
+    }
+
+    .button-center {
+        display: block;
+        text-align: center;
+    }
+
 }
 
 /* Section 7 */
@@ -357,6 +393,54 @@ h4 {
     margin: 10px;
     padding: 20px 20px 20px 10px;
     height: 25px;
+}
+
+@media (max-width: 800px) {
+    .contact-us {
+        font-size: 2em;
+        width: 100%;
+    }
+
+    .contact-subtitle {
+        font-size: 1.3em;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .text-block {
+        width: 100%;
+    }
+
+    .input-form {
+        margin-right: 4%;
+        margin-left: 4%;
+    }
+
+    .name-input {
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    
+    .email-input {
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    
+    .message-input {
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+
+    .input-text {
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+
+    .contact-image {
+        height: 250px;
+    }
+
+
 }
 
 /* Footer */ 
