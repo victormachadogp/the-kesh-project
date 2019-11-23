@@ -13,10 +13,19 @@ body {
     width: 100%;
     position: relative;
     text-align: center;
+    z-index: 1;
 }
 .image-cover {
     width: 100%;
     pointer-events: none;
+}
+
+.wave-cover {
+    position: absolute;
+    top: 102%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
 }
 
 h1 {
@@ -38,6 +47,8 @@ h1 {
     font-family: 'roboto';
     text-align: center;
     padding-top: 2em;
+    position: relative;
+    z-index: 999;
 }
 
 h2 {
@@ -69,8 +80,8 @@ p {
 }
 
 .video-text {
-    padding-left: 5%;
-    padding-right: 5%;
+    /* padding-left: 5%;
+    padding-right: 5%; */
     
 }
 
@@ -90,6 +101,8 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 49%;
+    position: relative;
+    z-index: 999;
 
 }
 
@@ -169,10 +182,16 @@ h4 {
 .band-cast {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    z-index: 999;
 }
 
 .band-members {
     text-align: center;
+}
+
+.band-images {
+    border-radius: 50%;
 }
 
 @media  (max-width: 800px) {
@@ -186,10 +205,19 @@ h4 {
 .container-2 {
     width: 100%;    
     position: relative;
+    z-index: 1;
 }
 .image-cover-section {
     width: 100%;
     pointer-events: none;
+}
+
+.wave-section {
+    position: absolute;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
 }
 
 .discover-section {
@@ -245,12 +273,21 @@ h4 {
 .our-clients {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
 
 }
 
 .client-text {
     background: #f4f4f4;
     text-align: center;
+    margin: 3%;
+    padding: 10%;
+    /* width: 50%; */
+    /* border-radius: 20px; */
+}
+
+.clients-image {
+    border-radius: 50%;
 }
 
 @media (max-width: 800px) {
