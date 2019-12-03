@@ -9,6 +9,8 @@ body {
 }
 /* Header */
 
+
+
 .container {
     width: 100%;
     position: relative;
@@ -42,6 +44,30 @@ h1 {
     width: 100%;
 }
 
+.main-header {
+    position: absolute;
+    right: 1%;
+    top: 2%;
+    text-align: right;
+    width: 100%;
+}
+
+.icons {
+    position: absolute;
+    bottom: 12%;
+    text-align: left;
+    width: 100%;
+    margin-left: 1%;
+}
+
+.fa {
+    color: white;
+    font-size: 30px !important;
+    margin: 1%;
+}
+
+
+
 @media (max-width: 600px) {
     .image-cover {
         width: 180%;
@@ -51,6 +77,27 @@ h1 {
 
     .container {
         overflow: hidden;
+    }
+
+    h1 {
+        font-size: 4.8em;
+    }
+
+    .icons {
+        position: absolute;
+        bottom: 6%;
+        text-align: left;
+        width: 100%;
+        margin-left: 3%;
+        /* display: none; */
+    }
+
+    .fa {
+        color: white;
+        font-size: 25px !important;
+        margin: 3%;
+        
+        
     }
     
 }
@@ -103,13 +150,9 @@ p {
 
 .video {
     width: 100%;
-    margin: 3%;
+    /* margin: 3%; */
     position: relative;
     z-index: 999;
-}
-
-.video-text {
-    margin-right: 3%;
 }
 
 /* Media Query Half Video */
@@ -149,20 +192,24 @@ p {
 }
 
 .curve-container {
-    position: relative;
-
+    /* position: relative; */
 }
 
-.curve {
-    background: url(images/curve.svg);
-    background-size: cover;
-    width: 100%;
-    height: 1500px;
-    z-index: 1;
-    position: absolute;
-    top: 100%;
-    background-repeat: no-repeat;
-    z-index: 1;
+
+@media (min-width: 1360px) {
+    .curve {
+        background: url(images/curve.svg);
+        background-size: cover;
+        width: 100%;
+        height: 1500px;
+        z-index: 1;
+        position: absolute;
+        top: 140%;
+        background-repeat: no-repeat;
+        z-index: 1;
+        /* opacity: 0.7; */
+    
+    }
 
 }
 
@@ -723,7 +770,98 @@ h4 {
         grid-row-start: 3;
         color: #a7a7a7;
     }
+
+
 }
+
+  /* Other Code */
+
+  .effect1 {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    padding: 10px 40px 10px 20px;
+  
+    -webkit-transition: all 0.3s;
+  
+    -o-transition: all 0.3s;
+  
+    transition: all 0.3s;
+  
+    -webkit-transform: scale(3);
+  
+        -ms-transform: scale(3);
+  
+            transform: scale(3); /*change scale(3) to scale(1)*/
+  }
+  
+  .effect1 .bg {
+    background: white;
+    /* width: 30px; */
+    height: 2px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -1px;
+    z-index: -1;
+  
+    -webkit-transition: all 0.3s;
+  
+    -o-transition: all 0.3s;
+  
+    transition: all 0.3s;
+  }
+  
+  .effect1:hover {
+    padding-right: 20px;
+    color: black;
+  }
+  
+  .effect1:hover .bg {
+    height: 100%;
+    width: 100%;
+    -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+  }
+  
+  .effect1 .bg:before, .effect1 .bg:after {
+    content: '';
+    /* height: 2px;
+    width: 2px;
+    background: white;
+    position: absolute;
+    right: -2px;       */
+    -webkit-transition: all 0.3s;      
+    -o-transition: all 0.3s;      
+    transition: all 0.3s;
+  }
+  
+  .effect1 .bg:before {
+    bottom: 3px;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  .effect1 .bg:after{
+    top: 3px;
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  
+  .effect1:hover .bg:before,
+  .effect1:hover .bg:after{
+    right: 0;
+  }
+  
+  .effect1:hover .bg:before{
+    bottom: 6px;
+  }
+  
+  .effect1:hover .bg:after{
+    top: 6px;
+  }
 
 
 

@@ -1,12 +1,21 @@
-<svg width="1200" height="1209" viewBox="0 0 1200 1209" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M1036.04 289.88C1148.06 196.719 1191.68 57.8094 1199.49 0L1200 604.5V1209H-1.5V846.5V513C178.547 522.596 522.788 469.306 681.653 442.317C753.108 430.322 924.023 383.042 1036.04 289.88Z" fill="#C4C4C4"/>
-<path d="M1036.04 289.88C1148.06 196.719 1191.68 57.8094 1199.49 0L1200 604.5V1209H-1.5V846.5V513C178.547 522.596 522.788 469.306 681.653 442.317C753.108 430.322 924.023 383.042 1036.04 289.88Z" fill="url(#paint0_linear)"/>
-<defs>
-<linearGradient id="paint0_linear" x1="599.25" y1="0" x2="599.25" y2="1209" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0.65"/>
-<stop offset="0.369792" stop-opacity="0.59"/>
-<stop offset="0.619792" stop-opacity="0.772975"/>
-<stop offset="1"/>
-</linearGradient>
-</defs>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1200px"
+	 height="1209px" viewBox="0 0 1200 1209" enable-background="new 0 0 1200 1209" xml:space="preserve">
+<g id="Layer_1">
+	<path fill="#C4C4C4" d="M1036.04,289.88C1148.06,196.719,1191.68,57.81,1199.49,0l0.51,604.5V1209H-1.5V846.5V513
+		c180.047,9.596,524.288-43.694,683.153-70.683C753.108,430.322,924.023,383.042,1036.04,289.88z"/>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="540.2104" y1="1192.3398" x2="540.2104" y2="-16.6597" gradientTransform="matrix(1 0 0 -1 59.04 1192.3398)">
+		<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0.65"/>
+		<stop  offset="0.3698" style="stop-color:#000000;stop-opacity:0.59"/>
+		<stop  offset="0.6198" style="stop-color:#000000;stop-opacity:0.773"/>
+		<stop  offset="1" style="stop-color:#000000"/>
+	</linearGradient>
+	<path fill="url(#SVGID_1_)" d="M1036.04,289.88C1148.06,196.719,1191.68,57.81,1199.49,0l0.51,604.5V1209H-1.5V846.5V513
+		c180.047,9.596,524.288-43.694,683.153-70.683C753.108,430.322,924.023,383.042,1036.04,289.88z"/>
+</g>
+<g id="Layer_2">
+</g>
 </svg>
